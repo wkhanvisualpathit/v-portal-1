@@ -89,9 +89,9 @@ a:hover, a:active {
     background: #f15708;
 }
 ul{
-  list-style-type:none;
+  list-style-type:disc;
 }
-ul li:before { content:"\2714\0020"; }
+/* ul li:before { content:"\2714\0020"; } */
 /*
 # Site Branding
 --------------------------------*/
@@ -514,6 +514,10 @@ ul li:before { content:"\2714\0020"; }
     color: #929191;
 }
 
+.tick {
+    color: orangered;
+    cursor: pointer;
+}
 /*
 # Tabs
 ----------------------------------*/
@@ -780,7 +784,7 @@ ul.tabs-nav .tab-nav.active {
 .welcome-content .entry-title {
     position: relative;
     padding-bottom: 24px;
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
 }
@@ -1186,7 +1190,9 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .about-page .welcome-content .entry-content {
-    color: #929191;
+    color: #163754;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .about-page .welcome-wrap img {
@@ -2199,4 +2205,50 @@ ul.tabs-nav .tab-nav.active {
 
 .test:hover ~ .test2 {
   display: none;
+}
+.inline{
+  display: inline;
+  color: #2f7bbb;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.address .list-unstyled{
+  list-style-type: none;
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    /* display: none; */
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+ul{
+  list-style-type:square;
+}
+.entry-title{
+  font-size: 20px;
+}
+.div-text{
+    color: #163754;
+    font-weight: 500;
+    font-style: italic;
 }
