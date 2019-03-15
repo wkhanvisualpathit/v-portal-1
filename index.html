@@ -6,7 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -25,14 +25,15 @@
   <!-- Animate CSS -->
   <link rel="stylesheet" href="css/animate.min.css">
   <!-- <link rel="stylesheet" href="css/circle.css"> -->
-  <link rel="stylesheet" href="css/progress.scss">
+  <!-- <link rel="stylesheet" href="css/progress.scss"> -->
   <link rel="stylesheet" href="css/banner.css">
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
   <!-- sweetalert2 -->
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
-  <link rel="stylesheet" href="css/circle1.css">
+  <link rel="stylesheet" href="./css/circle1.css">
+  <link rel="stylesheet" href="./css/price.css">
 </head>
 
 <body class="single-page about-page">
@@ -40,20 +41,26 @@
     <div class="top-header-bar">
       <div class="container">
         <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
-          <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+          <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
             <div class="header-bar-email">
-              MAIL: <a href="#">devopshelpdesk1@gmail.com</a>
+              Email: <a href="#">devopshelpdesk1@gmail.com</a>
             </div><!-- .header-bar-email -->
 
             <div class="header-bar-text">
-              <p>PHONE: <span><strong>+91-9676446666 / 9676336666 </strong></span></p>
+              <p>Phone: <span><strong>+91-9676446666 / 9676336666 </strong></span></p>
             </div><!-- .header-bar-text -->
           </div><!-- .col -->
 
-          <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+          <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
             <!-- <div class="donate-btn">
               <a href="#">Subscribe Now</a>
             </div> -->
+            <div class="donate-btn">
+              <a href="#payment">Pay Online</a>
+            </div>
+            <div class="donate-btn">
+              <a href="register.html">Become Instructor</a>
+            </div>
             <div class="donate-btn">
               <a href="#contact">Contact us</a>
             </div>
@@ -65,7 +72,7 @@
   <div class="welcome-wrap">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 order-2 order-lg-1">
+        <div class="col-12 col-lg-6 order-2 order-lg-1" id="title-banner">
           <div class="welcome-content">
             <header class="entry-header">
               <h2 class="entry-title">To Become <span style="color:#ff5901;font-size: 35px;">DevOps & Cloud </span> Expert</h2>
@@ -84,16 +91,19 @@
             </div><!-- .entry-content -->
 
             <div class="entry-footer mt-5">
-              <a href="#" class="btn gradient-bg mr-2">Subscribe Now</a>
+              <a href="https://devopsonlinehub.teachable.com/p/devops" class="btn gradient-bg mr-2">Subscribe Now</a>
             </div><!-- .entry-footer -->
             <br>
-            <div class="entry-footer div-text">
+            <div class="entry-footer div-text" style="font-weight:bold;">
               Devops online Hub is an E-learning platform of visualpath
             </div>
           </div><!-- .welcome-content -->
         </div><!-- .col -->
 
         <div class="col-12 col-lg-6 order-1 order-lg-2">
+          <div class="row">
+
+          </div>
           <iframe width="550" height="250" class="img-responsive" src="https://www.youtube.com/embed/kwoA3iUTRdk"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen=""></iframe>
@@ -104,12 +114,12 @@
                       <span id="sale-text" >Free Online Live Training for </span><br/>
                       <span id="sale-text" > First 1000 Registered Users</span><br>
                       <span id="sale-text" >On 10<sup>th</sup> Anniversary of Visualpath </span></span><br/>
-                        <span id="button">Get Enrolled Today !</span>
+                      <a href="https://devopsonlinehub.teachable.com/p/devops"><span id="button">Get Enrolled Today !</span></a>
                     </div>
 
               <div class="clearfix mt-4">
-                  <div class="c100 p10 big mr-4">
-                    <span>100 Enrolled !
+                  <div class="c100 p1 big mr-4">
+                    <span>0 Enrolled !
                       <!-- <img src="./images/clock.gif" alt=""> -->
                     </span>
                     <div class="slice">
@@ -504,22 +514,29 @@
 
 <section id="contact">
   <div class="container mt-5">
-    <div class="well well-sm">
-      <h3><strong>Contact Us :</strong></h3>
-      <br>
+    <div class="row">
+      <div class="col-md-11">
+        <div class="well well-sm">
+          <h3><strong>Contact Us :</strong></h3>
+          <br>
+        </div>
+      </div>
+      <div class="col-md-1">
+        <div class="donate-btn">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
     </div>
-
 	<div class="row">
     <div class="col-md-7 ">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3736489.7218514383!2d90.21589792292741!3d23.857125486636733!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1506502314230" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4843369841183!2d78.44242571473568!3d17.436517488049123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99cd87dc821b%3A0xfa3765acbdbacb01!2sVisualpath-Devops%2C+AWS%2C+MS+Azure%2C+ServiceNow%2C+Full+Stack+Training!5e0!3m2!1sen!2sin!4v1552461033402" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
      </div>
 	    <div class="col-md-4">
 		    <div class="address">
 		    <h5>Address:</h5>
 		    <ul class="list-unstyled">
-		        <li> T-Mobile Customer Relationdevopshelpdesk1@gmail.coms</li>
-		        <li> PO Box 37380</li>
-		        <li> Albuquerque, NM 87176-7380</li>
+		        <li> Flat no:205, 2nd Floor,NILGIRI Block, Aditya Encalve,</li>
+		        <li> Ameerpet, Hyderabad-16</li>
 		    </ul>
 		    </div>
 		    <div class="email">
@@ -536,12 +553,88 @@
 		    </ul>
 		    </div>
       </div>
-
-
     </div>
   </div>
 </section>
-<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+<div id="payment">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-11">
+        <div class="well well-sm">
+          <h3 style="margin-left:35%"><strong>Payment Details :</strong></h3>
+          <br>
+        </div>
+      </div>
+      <div class="col-md-1">
+        <div class="donate-btn">
+          <a href="index.html">Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <section id="pricePlans">
+     <ul id="plans">
+       <li class="plan">
+         <ul class="planContainer">
+
+           <li class="price">
+             <p>Bank Account Details</p>
+           </li>
+           <li>
+             <ul class="options">
+               <li>Beneficiary name : <span> John phenny</span></li>
+               <li>Account No : <span> 178966543323</span></li>
+               <li>IFSC Code :<span> SBIN00234</span></li>
+               <li>Branch Name :<span> sr nagar</span></li>
+               <li>Bank Name :<span> sbi</span></li>
+               <br /><br /><br /><br />
+             </ul>
+           </li>
+
+         </ul>
+       </li>
+
+
+
+       <li class="plan">
+         <ul class="planContainer">
+
+           <li class="price">
+             <p>Google Pay</p>
+           </li>
+           <li>
+             <ul class="options">
+               <li>Mobile no :<span> +91 9087564214</span></li>
+               <li>Name : <span> visualpathit</span></li>
+               <li>for scanning <span><img src="./images/barcode1.jpg"></span></li>
+
+             </ul>
+           </li>
+
+         </ul>
+       </li>
+
+       <li class="plan">
+         <ul class="planContainer">
+
+           <li class="price">
+             <p>Paytm</p>
+           </li>
+           <li>
+             <ul class="options">
+               <li>Mobile no :<span> +91 987557899</span></li>
+               <li>Name :<span> visualpath</span></li>
+               <li>for scanning <span><img src="./images/barcode1.jpg"></span></li>
+
+             </ul>
+           </li>
+
+         </ul>
+       </li>
+     </ul> <!-- End ul#plans -->
+   </section>
+ </div>
+<!-- <a id="back2Top" title="Back to top" href="#">&#10148;</a> -->
 <br><br><br>
   <footer class="site-footer">
     <div class="footer-bar">
@@ -552,8 +645,8 @@
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;<script>
                 document.write(new Date().getFullYear());
-              </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
-              by <a href="https://colorlib.com" target="_blank">Visualpath</a>
+              </script> All rights reserved | This template is made by
+              <a href="https://www.visualpath.in" target="_blank" style="color:white;">Visualpath</a>
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div><!-- .col-12 -->
@@ -562,22 +655,16 @@
     </div><!-- .footer-bar -->
   </footer><!-- .site-footer -->
   <script type="text/javascript">
-  $(window).scroll(function() {
-  var height = $(window).scrollTop();
-  if (height > 100) {
-      $('#back2Top').fadeIn();
-  } else {
-      $('#back2Top').fadeOut();
+  var sale = document.getElementById('sale');
+  var title_banner = document.getElementById('title-banner');
+  var colors = ['orange', 'white','lightgreen', 'lightblue', 'orange', 'yellow'];
+  setInterval(()=>{
+    change();
+  },1000);
+  function change(){
+    // title_banner.style.backgroundColor =colors[Math.floor(Math.random() * colors.length)];
+    sale.style.color = colors[Math.floor(Math.random() * colors.length)];
   }
-});
-$(document).ready(function() {
-  $("#back2Top").click(function(event) {
-      event.preventDefault();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-      return false;
-  });
-
-});
   </script>
   <script type='text/javascript' src='js/jquery.js'></script>
   <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
