@@ -34,41 +34,57 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
   <link rel="stylesheet" href="./css/circle1.css">
   <link rel="stylesheet" href="./css/price.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69758226-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-69758226-2');
+    </script>
+
+    <!---Visitor recording tool -Smartlook --->
+    <script type="text/javascript">
+        window.smartlook||(function(d) {
+        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+        c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+        })(document);
+        smartlook('init', 'c57156d54e59feddcbe54b20b3df4f493ab4f633');
+    </script>
+
 </head>
 
 <body class="single-page about-page">
   <header class="site-header">
-    <div class="top-header-bar">
-      <div class="container">
-        <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
           <div class="col-12 col-lg-6 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
-            <div class="header-bar-email">
-              Email: <a href="#">devopshelpdesk1@gmail.com</a>
-            </div><!-- .header-bar-email -->
-
-            <div class="header-bar-text">
-              <p>Phone: <span><strong>+91-9676446666 / 9676336666 </strong></span></p>
-            </div><!-- .header-bar-text -->
-          </div><!-- .col -->
-
-          <div class="col-12 col-lg-6 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
-            <!-- <div class="donate-btn">
-              <a href="#">Subscribe Now</a>
-            </div> -->
-            <div class="donate-btn">
-              <a href="#payment">Pay Online</a>
-            </div>
-            <div class="donate-btn">
-              <a href="register.html">Become Instructor</a>
-            </div>
-            <div class="donate-btn">
-              <a href="#contact">Contact us</a>
-            </div>
-          </div><!-- .col -->
-        </div><!-- .row -->
-      </div><!-- .container -->
-    </div><!-- .top-header-bar -->
+              <div class="header-bar-email">
+                Email: <a href="#">devopshelpdesk1@gmail.com</a>
+              </div><!-- .header-bar-email -->
+              <div class="header-bar-text">
+                <p>Phone: <span><strong>+91-9676446666 / 9676336666 </strong></span></p>
+              </div><!-- .header-bar-text -->
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto topnav ">
+                  <!-- <li class="nav-item">
+                      <a class="nav-link" href="#payment">Pay Online</a>
+                  </li> -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="register.html">Become Instructor</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+    </nav>
   </header><!-- .site-header -->
+
   <div class="welcome-wrap">
     <div class="container">
       <div class="row">
@@ -101,12 +117,9 @@
         </div><!-- .col -->
 
         <div class="col-12 col-lg-6 order-1 order-lg-2">
-          <div class="row">
-
+          <div class="videoWrapper">
+            <iframe width="550" height="250" src="https://www.youtube.com/embed/S_eTk3Ruyuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <iframe width="550" height="250" class="img-responsive" src="https://www.youtube.com/embed/kwoA3iUTRdk"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen=""></iframe>
             <div id="banner">
                     <div id="target"></div>
                     <!-- <div id="badge">SAVE NOW!</div> -->
@@ -118,8 +131,8 @@
                     </div>
 
               <div class="clearfix mt-4">
-                  <div class="c100 p1 big mr-4">
-                    <span>0 Enrolled !
+                  <div class="c100 p15 big mr-4">
+                    <span>154 Enrolled !
                       <!-- <img src="./images/clock.gif" alt=""> -->
                     </span>
                     <div class="slice">
@@ -454,8 +467,6 @@
           </div><!-- .cause-wrap -->
         </div><!-- .col -->
 
-
-
         <div class="col-12 col-md-6 col-lg-4">
           <div class="cause-wrap">
             <div class="cause-content-wrap">
@@ -556,16 +567,16 @@
     </div>
   </div>
 </section>
-<div id="payment">
+<!-- <div id="payment">
   <div class="container">
     <div class="row">
-      <div class="col-md-11">
+      <div class="col-md-10">
         <div class="well well-sm">
           <h3 style="margin-left:35%"><strong>Payment Details :</strong></h3>
           <br>
         </div>
       </div>
-      <div class="col-md-1">
+      <div class="col-md-2">
         <div class="donate-btn">
           <a href="index.html">Home</a>
         </div>
@@ -583,8 +594,8 @@
            <li>
              <ul class="options">
                <li>Beneficiary name : <span> John phenny</span></li>
-               <li>Account No : <span> 178966543323</span></li>
-               <li>IFSC Code :<span> SBIN00234</span></li>
+               <li>Account No : <span> XXXXXXXXX</span></li>
+               <li>IFSC Code :<span> XXXXXXX</span></li>
                <li>Branch Name :<span> sr nagar</span></li>
                <li>Bank Name :<span> sbi</span></li>
                <br /><br /><br /><br />
@@ -604,7 +615,7 @@
            </li>
            <li>
              <ul class="options">
-               <li>Mobile no :<span> +91 9087564214</span></li>
+               <li>Mobile no :<span> +91 908756XXX4</span></li>
                <li>Name : <span> visualpathit</span></li>
                <li>for scanning <span><img src="./images/barcode1.jpg"></span></li>
 
@@ -622,7 +633,7 @@
            </li>
            <li>
              <ul class="options">
-               <li>Mobile no :<span> +91 987557899</span></li>
+               <li>Mobile no :<span> +91 98755XXXX9</span></li>
                <li>Name :<span> visualpath</span></li>
                <li>for scanning <span><img src="./images/barcode1.jpg"></span></li>
 
@@ -631,9 +642,9 @@
 
          </ul>
        </li>
-     </ul> <!-- End ul#plans -->
+     </ul>
    </section>
- </div>
+ </div> -->
 <!-- <a id="back2Top" title="Back to top" href="#">&#10148;</a> -->
 <br><br><br>
   <footer class="site-footer">
@@ -667,6 +678,8 @@
   }
   </script>
   <script type='text/javascript' src='js/jquery.js'></script>
+  <!-- <script type='text/javascript' src='js/propper.min.js'></script> -->
+  <script type='text/javascript' src='js/bootstrap.min.js'></script>
   <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
   <script type='text/javascript' src='js/swiper.min.js'></script>
   <script type='text/javascript' src='js/jquery.countdown.min.js'></script>

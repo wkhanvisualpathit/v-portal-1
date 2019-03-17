@@ -2255,3 +2255,40 @@ ul{
     font-weight: 500;
     font-style: italic;
 }
+.videoWrapper {
+    position: relative;
+    padding-bottom: 50.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 10px;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg-warning {
+    /* background-color: #ffc107!important; */
+    background: #163754 !important;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* display: inline-block; */
+    padding: 15px 40px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-decoration: navajowhite;
+    background: #163754;
+    margin-left: 5px;
+    border: 1px solid white;
+}
+.navbar {
+  padding: 0.2rem 2rem;
+}
+bod{
+  margin: 0 0 0 -10px;
+}
